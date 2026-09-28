@@ -1,0 +1,80 @@
+<input type="password"/>
+
+<input type="search"/>
+
+<input type="phone" placeholder="543-766-2344"/>
+
+<input type="date"/>
+
+<input type="color"/>
+
+<input type="file" accept="image/*" multiple/>
+
+<input type="checkbox" value="El checkbox esta marcado" checked/>
+
+</br>
+
+<input type="text" placeholder="Ingresa tu nombre aquí" />
+
+
+<!--Area de texto-->
+
+
+<textarea cols="20" rows="10"></textarea>
+<textarea cols="10" rows="10">Escribe aquí tu mensaje</textarea>
+
+<!--Campos-->
+<fieldset>
+    <legend>Checkboxes</legend>
+    <input type="radio" name="lista" id="uno" value="Uno">
+    <label for="uno">Uno</label>
+    <input type="radio" name="lista" id="dos" value="Dos">
+    <label for="uno">Dos</label>
+    <input type="radio" name="lista" id="tres" value="Tres">
+    <label for="uno">Tres</label>
+</fieldset>
+<!--checkbox -->
+<!--radio: aca es una seleccion nomas claro si son del
+mismo grupo-->
+
+
+
+<form action="/action.php" method="POST">
+    <label for="name">Nombre: </label>
+    <input id="name" value="Bekam" name="name"/>
+    <br>
+    <label>
+        Email
+        <input name="email" type="email" required placeholder="miemail@ejemplo.com">
+    </label>
+    <br />
+    <button>Iniciar Sesión</button>
+
+</form>
+
+<!--action.php es el backend-->
+
+
+
+
+<form id="formularioEstudiante">
+    <label for="name">Nombre:</label>
+    <input id="name" type="text" placeholder="Ingresa tu nombre aqui">
+    <br />
+    <label for="apellido">Apellido:</label>
+    <input id="apellido" type="text" placeholder="Ingresa tu apellido aqui">
+    <br />
+    <label for="edad">Edad:</label>
+    <input id="edad" type="number" placeholder="Ingresa tu edad aqui">
+    <br />
+    <label for="carrera">Carrera:
+        <select id="carrera">
+            <option value="software">Ingeniería de Software</option>
+            <option value="IA">Ingeniería de IA</option>
+            <option value="CienciaDatos">Ciencia de Datos</option>
+            <option value="medicina">Medicina</option>
+        </select>
+    </label>
+    <br />
+    <button type="submit">Registrar</button>
+</form>
